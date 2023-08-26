@@ -89,7 +89,7 @@ const setInnerText = (id, value) => {
 };
 
 // update delivery charge and total Tax
-const updateTaxAndCharge = () => {
+/* const updateTaxAndCharge = () => {
    const priceConverted = getInputValue('price');
    if (priceConverted > 200) {
       setInnerText('delivery-charge', 30);
@@ -103,7 +103,7 @@ const updateTaxAndCharge = () => {
       setInnerText('delivery-charge', 60);
       setInnerText('total-tax', priceConverted * 0.4);
    }
-};
+}; */
 
 //grandTotal update function
 const updateTotal = () => {
